@@ -1,0 +1,93 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "ebsc_tensorflow: A Differentiable Time-Warped Yen Interpolator"
+abstract: >-
+  TensorFlow counterpart of ebsc: differentiable time-warping and time-warped Yen
+  interpolator for event-based sampling. The package contains an approximate
+  time-warped Yen interpolator that is differentiable with respect to the
+  instantaneous bandwidth, and NN-TW, a neural network that estimates the
+  instantaneous bandwidth from level-crossing samples and is trained on the
+  reconstruction error.
+authors:
+  - family-names: "Königs"
+    given-names: "Johannes"
+    email: "koenigs@ant.uni-bremen.de"
+    affiliation: "Universität Bremen"
+    orcid: "https://orcid.org/0000-0002-2352-2333"
+license: GPL-3.0-only
+repository-code: "https://github.com/ant-uni-bremen/ebsc_tensorflow"
+keywords:
+  - event-based sampling
+  - level-crossing sampling
+  - time-warping
+  - signal reconstruction
+  - instantaneous bandwidth
+  - TensorFlow
+references:
+  - type: conference-paper
+    title: "Instantaneous Bandwidth Estimation from Level-Crossing Samples via LSTM-Based Encoder-Decoder Architecture"
+    authors:
+      - family-names: "Königs"
+        given-names: "Johannes"
+      - family-names: "Bockelmann"
+        given-names: "Carsten"
+      - family-names: "Dekorsy"
+        given-names: "Armin"
+    collection-title: "2025 Signal Processing Symposium (SPSympo)"
+    publisher:
+      name: "IEEE"
+    start: 78
+    end: 83
+    year: 2025
+    doi: "10.23919/SPSympo63739.2025.11123995"
+  - type: book
+    title: "Reconstruction of Varying Bandwidth Signals from Event-Triggered Samples"
+    authors:
+      - family-names: "Rzepka"
+        given-names: "Dominik"
+      - family-names: "Pawlak"
+        given-names: "Mirosław"
+      - family-names: "Kościelnik"
+        given-names: "Dariusz"
+      - family-names: "Miśkowicz"
+        given-names: "Marek"
+    collection-title: "Event-Based Control and Signal Processing"
+    editors:
+      - family-names: "Miśkowicz"
+        given-names: "Marek"
+    publisher:
+      name: "CRC Press"
+    section: "23"
+    start: 529
+    end: 545
+    year: 2015
+    isbn: "978-1-4822-5655-0"
+  - type: article
+    title: "A Transformation Method for the Reconstruction of Functions from Nonuniformly Spaced Samples"
+    authors:
+      - family-names: "Clark"
+        given-names: "J."
+      - family-names: "Palmer"
+        given-names: "M."
+      - family-names: "Lawrence"
+        given-names: "P."
+    journal: "IEEE Transactions on Acoustics, Speech, and Signal Processing"
+    volume: 33
+    issue: 5
+    start: 1151
+    end: 1165
+    year: 1985
+    doi: "10.1109/TASSP.1985.1164714"
+  - type: article
+    title: "On Nonuniform Sampling of Bandwidth-Limited Signals"
+    authors:
+      - family-names: "Yen"
+        given-names: "J. L."
+    journal: "IRE Transactions on Circuit Theory"
+    volume: 3
+    issue: 4
+    start: 251
+    end: 257
+    year: 1956
+    doi: "10.1109/TCT.1956.1086325"

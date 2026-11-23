@@ -132,3 +132,4 @@ dmypy.json
 # logs
 *.err
 *.out
+*_version.py
