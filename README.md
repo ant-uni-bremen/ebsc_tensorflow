@@ -1,5 +1,7 @@
 # ebsc_tensorflow
 
+[![DOI](https://zenodo.org/badge/1462651911.svg)](https://doi.org/10.5281/zenodo.24459230)
+
 TensorFlow counterpart of [ebsc](https://github.com/ant-uni-bremen/ebsc): differentiable time-warping and
 time-warped Yen interpolator for event-based sampling.
 
@@ -143,7 +145,7 @@ If you use this package, please cite the archived release on Zenodo. GitHub show
   title   = {ebsc\_tensorflow: A Differentiable Time-Warped Yen Interpolator},
   version = {1.0.0},
   year    = {2026},
-  doi     = {10.5281/zenodo.XXXXXXX},
+  doi     = {10.5281/zenodo.24459230},
   url     = {https://github.com/ant-uni-bremen/ebsc_tensorflow}
 }
 ```

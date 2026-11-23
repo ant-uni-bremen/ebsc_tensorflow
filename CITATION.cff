@@ -16,6 +16,7 @@ authors:
     affiliation: "Universität Bremen"
     orcid: "https://orcid.org/0000-0002-2352-2333"
 license: GPL-3.0-only
+doi: "10.5281/zenodo.24459230"
 repository-code: "https://github.com/ant-uni-bremen/ebsc_tensorflow"
 keywords:
   - event-based sampling
